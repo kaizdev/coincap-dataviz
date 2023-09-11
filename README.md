@@ -9,9 +9,9 @@ Hosted link: TBA
 ## Functionality
 
 -   ✅ Search by coin name in search bar which updates the daily coin prices for last (trailing) calendar year
--   ⏳ todo: Add functionality to change the time series
--   ⏳ todo: Add additional interactivity
--   ⏳ todo: Host front end
+-   ✅ todo: Add functionality to change the time series
+-   ✅ todo: Add additional interactivity
+-   ✅ todo: Host front end
 
 ## Stack:
 
@@ -20,10 +20,10 @@ Hosted link: TBA
     -   TypeScript
 -   chartJS & react-chartjs-2
 
-## Installation
+## Installation (on local machine)
 
 -   Clone repo
--   CD into repo and then run `npm install`
+-   CD into repo folder and then run `npm install`
 -   Run dev environment by running `npm run dev`, then `o` to open localhost environment
 
 ## Change logs
@@ -41,3 +41,4 @@ Hosted link: TBA
 
 -   Added new API fetch for coin summary (market cap, rank, max supply)
 -   Added new inline styling
+-   Added button option for hourly and daily prices

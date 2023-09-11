@@ -13,7 +13,6 @@ function App() {
                 setSearchInput={setSearchInput}
             />
             <CoinPrices searchString={searchInput} />
-            {/* <BitcoinPrices searchString={searchInput} /> */}
         </>
     );
 }

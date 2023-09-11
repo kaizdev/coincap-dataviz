@@ -30,15 +30,17 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    placeholder="search"
-                    value={localInput}
-                    onChange={handleChange}
-                />
-                <button>Search</button>
-            </form>
+            <div style={{ textAlign: "center", marginTop: "2em" }}>
+                <form onSubmit={handleSubmit}>
+                    <input
+                        type="text"
+                        placeholder="search for coin"
+                        value={localInput}
+                        onChange={handleChange}
+                    />
+                    <button>Search</button>
+                </form>
+            </div>
         </>
     );
 };
