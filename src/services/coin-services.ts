@@ -29,3 +29,23 @@ export const getDailyPriceBySearch = async (searchString: string) => {
     }
     return data.data;
 };
+
+export const getSummaryStats = async (searchString: string) => {
+    const response = await fetch(
+        `https://api.coincap.io/v2/assets/${searchString}`,
+        {
+            headers: {
+                Accept: "application/json",
+            },
+        }
+    );
+    if (!response.ok) {
+        throw new Error("Failed to fetch coin data");
+    }
+
+    const data = await response.json();
+    if (data.data.length === 0) {
+        throw new Error("No coin data found for " + searchString);
+    }
+    return data.data;
+};
