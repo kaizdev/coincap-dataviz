@@ -6,12 +6,14 @@
 
 A React app which provides responsive graphs of crypto coin prices from the [Coincap API](https://docs.coincap.io/). Graphs and visualisation are from chartJs and react-chartjs-2
 
+![App screenshot, searched for bitcoin](./src/assets/app_screenshot.jpg)
+
 ## Functionality
 
--   ✅ Search by coin name in search bar which updates the daily coin prices for last (trailing) calendar year
--   ✅ todo: Add functionality to change the time series
--   ✅ todo: Add additional interactivity
--   ✅ todo: Host front end
+-   Search by coin name in search bar which updates the daily coin prices for last (trailing) calendar year
+-   Add functionality to change the time series
+-   Add additional interactivity
+-   Host front end
 
 ## Stack:
 
@@ -42,3 +44,5 @@ A React app which provides responsive graphs of crypto coin prices from the [Coi
 -   Added new API fetch for coin summary (market cap, rank, max supply)
 -   Added new inline styling
 -   Added button option for hourly and daily prices
+
+### 12/09/23 - Added screenshot and deployed link
