@@ -1,5 +1,4 @@
 import { useState } from "react";
-import BitcoinPrices from "./components/BitcoinPrices/BitcoinPrices";
 import SearchBar from "./components/SearchBar/SearchBar";
 import CoinPrices from "./components/CoinPrices/CoinPrices";
 
