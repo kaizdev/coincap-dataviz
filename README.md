@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Hosted link - Netlify](https://react-coincap-dataviz.netlify.com/)
+[Hosted link - Netlify](https://react-coincap-dataviz.netlify.app/)
 
 A React app which provides responsive graphs of crypto coin prices from the [Coincap API](https://docs.coincap.io/). Graphs and visualisation are from chartJs and react-chartjs-2
 
